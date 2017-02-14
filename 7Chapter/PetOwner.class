@@ -1,0 +1,9 @@
+class PetOwner
+{
+	// example linked to Vet.class
+	Vet v = new Vet()
+	Dog d = new Dog()
+	Hippo h = new Hippo();
+	v.giveShot( d ); // d.makeNoise();
+	v.giveShot( h ); // h.makeNoise();
+}
